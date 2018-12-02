@@ -8,10 +8,12 @@ using namespace std;
 
 int main()
 {
-	string ein;
+	char ein;
+	int asciizeichen;
 	cout << "Bitte Zeichen eingeben: ";
-	getline(cin, ein);
+	cin >> ein;
 	cout << "Eingabe: " << ein << endl;
+	cout << (int)ein;
 }
 
 // Programm ausführen: STRG+F5 oder "Debuggen" > Menü "Ohne Debuggen starten"
