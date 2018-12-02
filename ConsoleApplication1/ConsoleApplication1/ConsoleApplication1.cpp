@@ -3,10 +3,15 @@
 
 #include "pch.h"
 #include <iostream>
+#include <string>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n"; 
+	string ein;
+	cout << "Bitte Zeichen eingeben: ";
+	getline(cin, ein);
+	cout << "Eingabe: " << ein << endl;
 }
 
 // Programm ausführen: STRG+F5 oder "Debuggen" > Menü "Ohne Debuggen starten"
